@@ -33,6 +33,10 @@ int main() {
     printf("Left Shift %d << 2 = %d\n", a, a<<2);
     printf("Right Shift %d >> 2 = %d\n", a, a>>2);
     
+    //Conditional Operator - Ternary operator
+    
+    (a < b) ? printf("\na is greater than b"): printf("\nb is less than a");
+    
     return 0;
 }
 
@@ -63,5 +67,7 @@ Bitwise Operataors
 Bitwise XOR 9 ^ 5 = 12
 Left Shift 9 << 2 = 36
 Right Shift 9 >> 2 = 2
+
+b is less than a
 
   */
