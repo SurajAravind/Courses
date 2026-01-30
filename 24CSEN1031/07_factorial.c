@@ -40,3 +40,18 @@ The code has to be modified to check for negative number
 
 === Code Execution Successful ===
 */
+
+
+// Non-recursive
+#include <stdio.h>
+
+int main() {
+    int a=5, factorial=1;
+    for (int i=2; i<=a; i++)// Write C code here
+      factorial = factorial*i;
+    printf("Factorial of %d is %d", a, factorial);
+    return 0;
+}
+//Output
+Factorial of 5 is 120
+For a = 20 output is shown as Factorial of 20 is -2102132736
