@@ -1,0 +1,21 @@
+# Introduction to dictionaries, Accessing values in dictionaries, Working with dictionaries, Functions. Opening and closing file , Reading and writing files, File functions. - 10
+1.
+a={"a":1,"b":2,"c":3}    // Dictionary with keys - a, b, c and values - 1, 2, 3
+b=dict(zip(a.values(),a.keys()))  // zip pairs each values with its corresponding key and dict converts into a new dictionary
+print(b)
+OUTPUT {1: 'a', 2: 'b', 3: 'c'}
+Insights - What will happen for duplicates?
+
+2. 
+d = {}       // Empty dictionary or set
+s = ('Salary','Age','Name')  //Tuple
+d = d.fromkeys(s)  // fromkeys() creates a new dictionary with keys from s and values are None by default
+print("New Dictionary : %s" %str(d))
+OUTPUT New Dictionary : {'Salary': None, 'Age': None, 'Name': None}
+Insights -Are dictionary mutable or immutable?
+
+3.
+dict={"Joey":1,"Rachel":2}  // Create a dictionary
+dict.update({"Phoebe":2})  // update() adds new key-value pair or overwrites existing one
+print(dict)
+OUTPUT {'Joey': 1, 'Rachel': 2, 'Phoebe': 2}
